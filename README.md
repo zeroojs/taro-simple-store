@@ -4,17 +4,16 @@
  * @Author: Minyoung
  * @Date: 2022-06-06 11:08:57
  * @LastEditors: Minyoung
- * @LastEditTime: 2022-06-06 13:08:47
+ * @LastEditTime: 2022-06-06 13:18:45
 -->
 # Taro + 云开发 实现一个简易小商城
-## 页面
-<div style="display:flex;flex-wrap:wrap;">
-  <img style="width:33.33%" src="./doc/index.png">
-  <img style="width:33.33%" src="./doc/product.png">
-  <img style="width:33.33%" src="./doc/confirm.png">
-  <img style="width:33.33%" src="./doc/orders.png">
-  <img style="width:33.33%" src="./doc/order-details.png">
-  <img style="width:33.33%" src="./doc/mine.png">
+<div style="display:flex;flex-warp:warp;">
+  <img height="300px" src="./doc/index.png">
+  <img height="300px" src="./doc/product.png">
+  <img height="300px" src="./doc/confirm.png">
+  <img height="300px" src="./doc/orders.png">
+  <img height="300px" src="./doc/order-details.png">
+  <img height="300px" src="./doc/mine.png">
 </div>
 
 ## 云开发（免费方案）
