@@ -1,0 +1,10 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "taro-simple-store",
+  "appid": "wxb52b3bf4e0fd2f88",
+  "setting": {
+    "es6": false,
+    "minified": false
+  },
+  "cloudfunctionRoot": "cloudbase/"
+}

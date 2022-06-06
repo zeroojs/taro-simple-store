@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+  align-items: center;
+  &.center {
+    justify-content: center;
+  }
+  &.between {
+    justify-content: space-between;
+  }
+  .top {
+    align-items: flex-start;
+  }
+  .bottom {
+    align-items: flex-end;
+  }
+}
+
+.container {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.app-page {
+  padding: 20px 0;
+}
+
+.vice-text {
+  color: rgba(0, 0, 0, 0.45);
+}

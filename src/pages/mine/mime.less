@@ -1,0 +1,68 @@
+.app-page {
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  &.wait-auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logout-btn {
+      position: unset;
+    }
+  }
+}
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.username {
+  font-family: 'STSong';
+  font-size: 24px;
+}
+.wel-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.username-text {
+  font-weight: 600;
+}
+
+.count-card {
+  margin-top: 40px;
+  padding: 20px;
+  background: #F5F5F5;
+}
+.card-item {
+  text-align: center;
+}
+.card-item__value {
+  margin-bottom: 5px;
+}
+
+.list {
+  margin-top: 40px;
+}
+.list-item {
+  padding: 10px 0;
+  &:not(:last-child) {
+    border-bottom: 1PX solid #F5F5F5;
+  }
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+// 退出登录按钮
+.logout-btn {
+  width: calc(100% - 40px);
+  height: 48px;
+  font-size: 16px;
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}

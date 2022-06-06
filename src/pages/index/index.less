@@ -1,0 +1,44 @@
+.filter-title {
+  margin: 10px 0;
+  border-top: 2PX solid #F5F5F5;
+  border-bottom: 2PX solid #F5F5F5;
+}
+.filter-title__inner {
+  height: 48px;
+  line-height: 48px;
+  font-family: 'STSong';
+  .main-text {
+    font-size: 24px;
+  }
+  .vice-text {
+    font-weight: 400;
+  }
+}
+
+.filter-actions {
+  overflow: auto hidden;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  scroll-behavior: smooth;
+  &::-webkit-scrollbar {
+    height: 0;
+  }
+}
+
+// 产品列表
+.product-group {
+  column-count: 2;
+}
+.product-item {
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
+
+// Navbar
+.navbar-icon {
+  width: 24px;
+  height: 24px;
+  & ~ .navbar-icon {
+    margin-left: 20px;
+  }
+}
